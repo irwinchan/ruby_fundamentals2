@@ -26,4 +26,9 @@ puts "The second item on the list is #{grocery_list[1]}."
 puts ""
 output_list(grocery_list.sort)
 
+# Remove salmon from list
+grocery_list.delete("salmon")
+puts ""
+output_list(grocery_list)
+
 
