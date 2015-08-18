@@ -15,3 +15,6 @@ output_list (grocery_list)
 
 puts ""
 puts "You have #{grocery_list.count} items on your list"
+
+#check list for bananas
+puts "Does the list have bananas? #{grocery_list.include?("bananas")}"
