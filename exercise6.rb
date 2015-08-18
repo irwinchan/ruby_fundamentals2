@@ -17,4 +17,6 @@ puts ""
 puts "You have #{grocery_list.count} items on your list"
 
 #check list for bananas
-puts "Does the list have bananas? #{grocery_list.include?("bananas")}"
+puts grocery_list.include?("bananas") ? "You need to pick up bananas" : "You don't need to pick up bananas today"
+
+
