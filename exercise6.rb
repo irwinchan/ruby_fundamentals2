@@ -19,4 +19,6 @@ puts "You have #{grocery_list.count} items on your list"
 #check list for bananas
 puts grocery_list.include?("bananas") ? "You need to pick up bananas" : "You don't need to pick up bananas today"
 
+#output the second item
+puts "The second item on the list is #{grocery_list[1]}."
 
