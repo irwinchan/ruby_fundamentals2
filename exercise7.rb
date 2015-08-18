@@ -15,4 +15,9 @@ students = {
 students[:cohort4] = 43
 display_students (students)
 
+# Output cohort names with keys method
+
+students.keys.each do |cohort|
+	puts cohort
+end
 
