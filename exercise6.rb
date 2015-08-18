@@ -8,3 +8,8 @@ end
 
 # list items
 output_list (grocery_list)
+
+grocery_list.push("rice")
+
+puts ""
+output_list (grocery_list)
