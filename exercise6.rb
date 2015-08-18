@@ -10,6 +10,8 @@ end
 output_list (grocery_list)
 
 grocery_list.push("rice")
-
 puts ""
 output_list (grocery_list)
+
+puts ""
+puts "You have #{grocery_list.count} items on your list"
