@@ -33,3 +33,13 @@ display_students (students)
 students.delete(:cohort2) 
 puts ""
 display_students (students)
+
+# BONUS calculate total students using each method
+total_students = 0
+
+students.each do |cohort, size|
+	total_students += size
+end
+
+puts ""
+puts "There are a total of #{total_students} students."
