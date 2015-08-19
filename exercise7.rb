@@ -11,7 +11,6 @@ students = {
 }
 
 # Add Cohort 4
-
 students[:cohort4] = 43
 puts ""
 display_students (students)
@@ -23,7 +22,6 @@ students.keys.each do |cohort|
 end
 
 # Expand classes by 5%
-
 students.each do |cohort, size|
 students[cohort] = (size * 1.05).to_i
 end
